@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    font-family: 'M PLUS Rounded 1c', sans-serif;;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+#companyName {
+  background-color: #0091FF;
+  margin: 0;
+  padding: 20px;
+  color: white;
+}
+
+a {
+  text-decoration:none;
+  font-family: Arial;
+  display: block;
+  color: white;
+}
+
+#mainPage {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 80.9vh;
+}
+
+
+
+#mainPageBtns {
+    display: flex;
+    justify-content: space-around;
+    column-count: 2;
+    background-image: linear-gradient(#000, #000);
+    background-size: 2px 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+::placeholder {
+  font-style: italic;
+  font-size: 1em;
+  padding: 5px;
+  display: flex;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+
+
+
+
+.recruiterSection {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    width: 450px;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 23px;
+}
+
+.recruiterBtn {
+    display: flex;
+    margin: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    height: 130px;
+    width: 250px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    box-shadow: 0 0 10px black;
+    background-color: #0091FF;
+    color: white;
+    border: 0;
+}
+
+.recruiteeSection {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    width: 450px;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 23px;
+}
+
+.recruiteeBtn {
+    display: flex;
+    margin: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    height: 130px;
+    width: 250px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    box-shadow: 0 0 10px black;
+    background-color: #0091FF;
+    color: white;
+    border: 0;
+}
+
+.recruiterBtn:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+}
+
+.recruiteeBtn:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+}
+
+.recruiteePage {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    width: 450px;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 23px;
+}
+
+
+
+
+
+footer {
+  background-color: #0091FF;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  bottom: 0;
+  height: 55px;
+  margin: 0px;
+  padding: 0 30px;
+}
+
+.email-sign-up {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email-sign-up > p {
+  font-size: 15px;
+}
+
+#email-box {
+  border: none;
+  padding: 3px;
+  border-radius: 2px;
+}
+
+#sign-up {
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: 3px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  cursor: pointer;
+}
+
+#sign-up:hover {
+  transform: scale(1.02, 1.02);
+  cursor: pointer;
+}

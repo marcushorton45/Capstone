@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruit Mate</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<header>
+  <a href="./home.html">
+    <h1 id="companyName">Recruit Mate</h1>
+  </a>
+</header>
+<body>
+ <form id="resumeMain">
+    <h3 class="sectionTitle">Personal Information</h3>
+    <section id="personalInfo">
+  <div id="fname" class="name title">
+    <h3>First Name:</h3>
+    <input type="text" placeholder="Type here" id="fnameResult" required/>
+  </div>
+  <div id="lname" class="name title">
+    <h3>Last Name:</h3>
+    <input type="text" placeholder="Type here" id="lnameResult" required/>
+  </div>
+  <div id="city" class="name title">
+    <h3>Current City:</h3>
+    <input type="text" placeholder="Type here" id="cityResult" required/>
+  </div>
+  <div id="state" class="name title">
+    <h3>Current State:</h3>
+    <select name="state" id="stateResult" required>
+      <option value="" disabled selected>Select your option</option>
+      <option value="Alabama">Alabama</option>
+      <option value="Alaska">Alaska</option>
+      <option value="Arizona">Arizona</option>
+      <option value="Arkansas">Arkansas</option>
+      <option value="California">California</option>
+      <option value="Colorado">Colorado</option>
+      <option value="Connecticut">Connecticut</option>
+      <option value="Delaware">Delaware</option>
+      <option value="District Of Columbia">District Of Columbia</option>
+      <option value="Florida">Florida</option>
+      <option value="Georgia">Georgia</option>
+      <option value="Hawaii">Hawaii</option>
+      <option value="Idaho">Idaho</option>
+      <option value="Illinois">Illinois</option>
+      <option value="Indiana">Indiana</option>
+      <option value="Iowa">Iowa</option>
+      <option value="Kansas">Kansas</option>
+      <option value="Kentucky">Kentucky</option>
+      <option value="Louisiana">Louisiana</option>
+      <option value="Maine">Maine</option>
+      <option value="Maryland">Maryland</option>
+      <option value="Massachusetts">Massachusetts</option>
+      <option value="Michigan">Michigan</option>
+      <option value="Minnesota">Minnesota</option>
+      <option value="Mississippi">Mississippi</option>
+      <option value="Missouri">Missouri</option>
+      <option value="Montana">Montana</option>
+      <option value="Nebraska">Nebraska</option>
+      <option value="Nevada">Nevada</option>
+      <option value="New Hampshire">New Hampshire</option>
+      <option value="New Jersey">New Jersey</option>
+      <option value="New Mexico">New Mexico</option>
+      <option value="New York">New York</option>
+      <option value="North Carolina">North Carolina</option>
+      <option value="North Dakota">North Dakota</option>
+      <option value="Ohio">Ohio</option>
+      <option value="Oklahoma">Oklahoma</option>
+      <option value="Oregon">Oregon</option>
+      <option value="Pennsylvania">Pennsylvania</option>
+      <option value="Rhode Island">Rhode Island</option>
+      <option value="South Carolina">South Carolina</option>
+      <option value="South Dakota">South Dakota</option>
+      <option value="Tennessee">Tennessee</option>
+      <option value="Texas">Texas</option>
+      <option value="Utah">Utah</option>
+      <option value="Vermont">Vermont</option>
+      <option value="Virginia">Virginia</option>
+      <option value="Washington">Washington</option>
+      <option value="West Virginia">West Virginia</option>
+      <option value="Wisconsin">Wisconsin</option>
+      <option value="Wyoming">Wyoming</option>
+    </select>
+  </div>
+  <div id="bday" class="other title">
+    <h3>Brithdate:</h3>
+    <input type="date" id="bdayResult" required/>
+  </div>
+  <div id="phoneNumber" class="other title">
+    <h3>Phone Number:</h3>
+    <input type="text" id="phone" name="phone" placeholder="1234567890" required/>
+  </div>
+  <div id="email" class="other title">
+    <h3>Email:</h3>
+    <input type="email" placeholder="Type here" id="emailResult" required/>
+  </div>
+</section>
+   <h3 class="sectionTitle">Job History</h3>
+<section class="firstJob">
+    <div class="pastCompanyName title firstJob">
+       <h3>Company Name:</h3>
+       <input type="text" placeholder="Type here" class="companyName1" required/>
+    </div>
+    <div id="jobCity" class="jobLocation title firstJob">
+      <h3>Job Location (city):</h3>
+      <input type="text" placeholder="Type here" class="jobCity1" required/>
+    </div>
+    <div id="jobstate" class="jobLocation title firstJob">
+      <h3>Job Location (state):</h3>
+      <select class="jobState1" required>
+       <option value="" disabled selected>Select your option</option>
+       <option value="Alabama">Alabama</option>
+       <option value="Alaska">Alaska</option>
+       <option value="Arizona">Arizona</option>
+       <option value="Arkansas">Arkansas</option>
+       <option value="California">California</option>
+       <option value="Colorado">Colorado</option>
+       <option value="Connecticut">Connecticut</option>
+       <option value="Delaware">Delaware</option>
+       <option value="District Of Columbia">District Of Columbia</option>
+       <option value="Florida">Florida</option>
+       <option value="Georgia">Georgia</option>
+       <option value="Hawaii">Hawaii</option>
+       <option value="Idaho">Idaho</option>
+       <option value="Illinois">Illinois</option>
+       <option value="Indiana">Indiana</option>
+       <option value="Iowa">Iowa</option>
+       <option value="Kansas">Kansas</option>
+       <option value="Kentucky">Kentucky</option>
+       <option value="Louisiana">Louisiana</option>
+       <option value="Maine">Maine</option>
+       <option value="Maryland">Maryland</option>
+       <option value="Massachusetts">Massachusetts</option>
+       <option value="Michigan">Michigan</option>
+       <option value="Minnesota">Minnesota</option>
+       <option value="Mississippi">Mississippi</option>
+       <option value="Missouri">Missouri</option>
+       <option value="Montana">Montana</option>
+       <option value="Nebraska">Nebraska</option>
+       <option value="Nevada">Nevada</option>
+       <option value="New Hampshire">New Hampshire</option>
+       <option value="New Jersey">New Jersey</option>
+       <option value="New Mexico">New Mexico</option>
+       <option value="New York">New York</option>
+       <option value="North Carolina">North Carolina</option>
+       <option value="North Dakota">North Dakota</option>
+       <option value="Ohio">Ohio</option>
+       <option value="Oklahoma">Oklahoma</option>
+       <option value="Oregon">Oregon</option>
+       <option value="Pennsylvania">Pennsylvania</option>
+       <option value="Rhode Island">Rhode Island</option>
+       <option value="South Carolina">South Carolina</option>
+       <option value="South Dakota">South Dakota</option>
+       <option value="Tennessee">Tennessee</option>
+       <option value="Texas">Texas</option>
+       <option value="Utah">Utah</option>
+       <option value="Vermont">Vermont</option>
+       <option value="Virginia">Virginia</option>
+       <option value="Washington">Washington</option>
+       <option value="West Virginia">West Virginia</option>
+       <option value="Wisconsin">Wisconsin</option>
+       <option value="Wyoming">Wyoming</option>
+      </select>
+    </div>
+    <div class="jobType title firstJob">
+        <h3>Job Type:</h3>
+        <select class="jobType jobType1" required>
+          <option value="" disabled selected>Select your option</option>
+          <option value="Agriculture, Food, and Natural Resources">Agriculture, Food, and Natural Resources</option>
+          <option value="Architecture and Construction">Architecture and Construction</option>
+          <option value="Arts, Audio/Video Technology, and Communication">Arts, Audio/Video Technology, and Communication</option>
+          <option value="Business and Finance">Business and Finance</option>
+          <option value="Education and Training">Education and Training</option>
+          <option value="Government and Public Administration">Government and Public Administration</option>
+          <option value="Health Science">Health Science</option>
+          <option value="Information Technology">Information Technology</option>
+          <option value="Law, Public Safety, Corrections, and Security">Law, Public Safety, Corrections, and Security</option>
+          <option value="Marketing">Marketing</option>
+          <option value="Science, Technology, Engineering, and Math">Science, Technology, Engineering, and Math</option>
+          <option value="Other">Other</option>
+        </select>
+    </div>
+    <div class="timePeriod title firstJob">
+        <h3>How long did you work there?</h3>
+        <p>From:</p>
+        <input type="text" placeholder="mm/yyyy"  class="timeStart1" required/>
+        <p>To:</p>
+        <input type="text" placeholder="mm/yyyy" class="timeEnd1" required/>
+        <p class="leaveBlank">*Enter "to" date or type "current" if still working there</p>
+    </div>
+    <div class="jobDescription title firstJob">
+        <h3>Job description and responsibilities:</h3>
+        <textarea placeholder="Type here" style="height: 150px;" class="jobDescription1"></textarea>
+    </div>
+  </section>
+<section>
+   <input type="checkbox" id="toggle1" class="addMore"/>
+   <p class="addMore title">*Select this field if you would like to add another job</p>
+
+<section class="secondJob" style="display: none;">
+    <div class="pastCompanyName title secondJob">
+        <h3>Company Name:</h3>
+        <input type="text" placeholder="Type here" class="companyName2"/>
+     </div>
+     <div class="jobLocation title secondJob">
+       <h3>Job Location (city):</h3>
+       <input type="text" placeholder="Type here" class="jobCity2"/>
+      </div>
+      <div id="jobstate" class="jobLocation title firstJob">
+        <h3>Job Location (state):</h3>
+        <select class="jobState2">
+          <option value="Select one" disabled selected>Select your option</option>
+          <option value="Alabama">Alabama</option>
+          <option value="Alaska">Alaska</option>
+          <option value="Arizona">Arizona</option>
+          <option value="Arkansas">Arkansas</option>
+          <option value="California">California</option>
+          <option value="Colorado">Colorado</option>
+          <option value="Connecticut">Connecticut</option>
+          <option value="Delaware">Delaware</option>
+          <option value="District Of Columbia">District Of Columbia</option>
+          <option value="Florida">Florida</option>
+          <option value="Georgia">Georgia</option>
+          <option value="Hawaii">Hawaii</option>
+          <option value="Idaho">Idaho</option>
+          <option value="Illinois">Illinois</option>
+          <option value="Indiana">Indiana</option>
+          <option value="Iowa">Iowa</option>
+          <option value="Kansas">Kansas</option>
+          <option value="Kentucky">Kentucky</option>
+          <option value="Louisiana">Louisiana</option>
+          <option value="Maine">Maine</option>
+          <option value="Maryland">Maryland</option>
+          <option value="Massachusetts">Massachusetts</option>
+          <option value="Michigan">Michigan</option>
+          <option value="Minnesota">Minnesota</option>
+          <option value="Mississippi">Mississippi</option>
+          <option value="Missouri">Missouri</option>
+          <option value="Montana">Montana</option>
+          <option value="Nebraska">Nebraska</option>
+          <option value="Nevada">Nevada</option>
+          <option value="New Hampshire">New Hampshire</option>
+          <option value="New Jersey">New Jersey</option>
+          <option value="New Mexico">New Mexico</option>
+          <option value="New York">New York</option>
+          <option value="North Carolina">North Carolina</option>
+          <option value="North Dakota">North Dakota</option>
+          <option value="Ohio">Ohio</option>
+          <option value="Oklahoma">Oklahoma</option>
+          <option value="Oregon">Oregon</option>
+          <option value="Pennsylvania">Pennsylvania</option>
+          <option value="Rhode Island">Rhode Island</option>
+          <option value="South Carolina">South Carolina</option>
+          <option value="South Dakota">South Dakota</option>
+          <option value="Tennessee">Tennessee</option>
+          <option value="Texas">Texas</option>
+          <option value="Utah">Utah</option>
+          <option value="Vermont">Vermont</option>
+          <option value="Virginia">Virginia</option>
+          <option value="Washington">Washington</option>
+          <option value="West Virginia">West Virginia</option>
+          <option value="Wisconsin">Wisconsin</option>
+          <option value="Wyoming">Wyoming</option>
+        </select>
+      </div>
+      <div class="jobType title secondJob">
+       <h3>Job Type:</h3>
+       <select class="jobType jobType2">
+         <option value="Select one" disabled selected>Select your option</option>
+         <option value="Agriculture, Food, and Natural Resources">Agriculture, Food, and Natural Resources</option>
+         <option value="Architecture and Construction">Architecture and Construction</option>
+         <option value="Arts, Audio/Video Technology, and Communication">Arts, Audio/Video Technology, and Communication</option>
+         <option value="Business and Finance">Business and Finance</option>
+         <option value="Education and Training">Education and Training</option>
+         <option value="Government and Public Administration">Government and Public Administration</option>
+         <option value="Health Science">Health Science</option>
+         <option value="Information Technology">Information Technology</option>
+         <option value="Law, Public Safety, Corrections, and Security">Law, Public Safety, Corrections, and Security</option>
+         <option value="Marketing">Marketing</option>
+         <option value="Science, Technology, Engineering, and Math">Science, Technology, Engineering, and Math</option>
+         <option value="Other">Other</option>
+       </select>
+      </div>
+     <div class="timePeriod title secondJob">
+         <h3>How long did you work there?</h3>
+         <p>From:</p>
+         <input type="text" placeholder="mm/yyyy" class="timeStart2"/>
+         <p>To:</p>
+         <input type="text" placeholder="mm/yyyy" class="timeEnd2"/>
+         <p class="leaveBlank">*Enter "to" date or type "current" if still working there</p>
+     </div>
+    <div class="jobDescription title secondJob">
+         <h3>Job description and responsibilities:</h3>
+         <textarea placeholder="Type here" style="height: 150px;" class="jobDescription2"></textarea>
+      </div>
+ </section>
+</section>
+<section>
+  <input type="checkbox" id="toggle2" class="addMore" style="display: none;"/>
+  <p class="addMore title" id="toggleTag2" style="display: none;">*Select this field if you would like to add another job</p>
+
+<section class="thirdJob" style="display: none;">
+   <div class="pastCompanyName title thirdJob">
+       <h3>Company Name:</h3>
+       <input type="text" placeholder="Type here" class="companyName3"/>
+    </div>
+    <div class="jobLocation title thirdJob">
+      <h3>Job Location (city):</h3>
+      <input type="text" placeholder="Type here" class="jobCity3"/>
+     </div>
+     <div id="jobstate" class="jobLocation title firstJob">
+      <h3>Job Location (state):</h3>
+      <select class="jobState3">
+        <option value="Select one" disabled selected>Select your option</option>
+        <option value="Alabama">Alabama</option>
+        <option value="Alaska">Alaska</option>
+        <option value="Arizona">Arizona</option>
+        <option value="Arkansas">Arkansas</option>
+        <option value="California">California</option>
+        <option value="Colorado">Colorado</option>
+        <option value="Connecticut">Connecticut</option>
+        <option value="Delaware">Delaware</option>
+        <option value="District Of Columbia">District Of Columbia</option>
+        <option value="Florida">Florida</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Hawaii">Hawaii</option>
+        <option value="Idaho">Idaho</option>
+        <option value="Illinois">Illinois</option>
+        <option value="Indiana">Indiana</option>
+        <option value="Iowa">Iowa</option>
+        <option value="Kansas">Kansas</option>
+        <option value="Kentucky">Kentucky</option>
+        <option value="Louisiana">Louisiana</option>
+        <option value="Maine">Maine</option>
+        <option value="Maryland">Maryland</option>
+        <option value="Massachusetts">Massachusetts</option>
+        <option value="Michigan">Michigan</option>
+        <option value="Minnesota">Minnesota</option>
+        <option value="Mississippi">Mississippi</option>
+        <option value="Missouri">Missouri</option>
+        <option value="Montana">Montana</option>
+        <option value="Nebraska">Nebraska</option>
+        <option value="Nevada">Nevada</option>
+        <option value="New Hampshire">New Hampshire</option>
+        <option value="New Jersey">New Jersey</option>
+        <option value="New Mexico">New Mexico</option>
+        <option value="New York">New York</option>
+        <option value="North Carolina">North Carolina</option>
+        <option value="North Dakota">North Dakota</option>
+        <option value="Ohio">Ohio</option>
+        <option value="Oklahoma">Oklahoma</option>
+        <option value="Oregon">Oregon</option>
+        <option value="Pennsylvania">Pennsylvania</option>
+        <option value="Rhode Island">Rhode Island</option>
+        <option value="South Carolina">South Carolina</option>
+        <option value="South Dakota">South Dakota</option>
+        <option value="Tennessee">Tennessee</option>
+        <option value="Texas">Texas</option>
+        <option value="Utah">Utah</option>
+        <option value="Vermont">Vermont</option>
+        <option value="Virginia">Virginia</option>
+        <option value="Washington">Washington</option>
+        <option value="West Virginia">West Virginia</option>
+        <option value="Wisconsin">Wisconsin</option>
+        <option value="Wyoming">Wyoming</option>
+      </select>
+    </div>
+     <div class="jobType title thirdJob">
+      <h3>Job Type:</h3>
+      <select class="jobType jobType3">
+        <option value="Select one" disabled selected>Select your option</option>
+        <option value="Agriculture, Food, and Natural Resources">Agriculture, Food, and Natural Resources</option>
+        <option value="Architecture and Construction">Architecture and Construction</option>
+        <option value="Arts, Audio/Video Technology, and Communication">Arts, Audio/Video Technology, and Communication</option>
+        <option value="Business and Finance">Business and Finance</option>
+        <option value="Education and Training">Education and Training</option>
+        <option value="Government and Public Administration">Government and Public Administration</option>
+        <option value="Health Science">Health Science</option>
+        <option value="Information Technology">Information Technology</option>
+        <option value="Law, Public Safety, Corrections, and Security">Law, Public Safety, Corrections, and Security</option>
+        <option value="Marketing">Marketing</option>
+        <option value="Science, Technology, Engineering, and Math">Science, Technology, Engineering, and Math</option>
+        <option value="Other">Other</option>
+      </select>
+     </div>
+    <div class="timePeriod title thirdJob">
+        <h3>How long did you work there?</h3>
+        <p>From:</p>
+        <input type="text" placeholder="mm/yyyy"  class="timeStart3"/>
+        <p>To:</p>
+        <input type="text" placeholder="mm/yyyy"  class="timeEnd3"/>
+        <p class="leaveBlank">*Enter "to" date or type "current" if still working there</p>
+    </div>
+   <div class="jobDescription title thirdJob">
+        <h3>Job description and responsibilities:</h3>
+        <textarea placeholder="Type here" style="height: 150px;" class="jobDescription3"></textarea>
+     </div>
+</section>
+</section>
+<section>
+  <input type="checkbox" id="toggle3" class="addMore" style="display: none;"/>
+  <p class="addMore title" id="toggleTag3" style="display: none;">*Select this field if you would like to add another job</p>
+
+<section class="fourthJob" style="display: none;">
+   <div class="pastCompanyName title fourthJob">
+       <h3>Company Name:</h3>
+       <input type="text" placeholder="Type here" class="companyName4"/>
+    </div>
+    <div class="jobLocation title fourthJob">
+      <h3>Job Location (city):</h3>
+      <input type="text" placeholder="Type here" class="jobCity4"/>
+     </div>
+     <div id="jobstate" class="jobLocation title firstJob">
+      <h3>Job Location (state):</h3>
+      <select class="jobState4">
+        <option value="Select one" disabled selected>Select your option</option>
+        <option value="Alabama">Alabama</option>
+        <option value="Alaska">Alaska</option>
+        <option value="Arizona">Arizona</option>
+        <option value="Arkansas">Arkansas</option>
+        <option value="California">California</option>
+        <option value="Colorado">Colorado</option>
+        <option value="Connecticut">Connecticut</option>
+        <option value="Delaware">Delaware</option>
+        <option value="District Of Columbia">District Of Columbia</option>
+        <option value="Florida">Florida</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Hawaii">Hawaii</option>
+        <option value="Idaho">Idaho</option>
+        <option value="Illinois">Illinois</option>
+        <option value="Indiana">Indiana</option>
+        <option value="Iowa">Iowa</option>
+        <option value="Kansas">Kansas</option>
+        <option value="Kentucky">Kentucky</option>
+        <option value="Louisiana">Louisiana</option>
+        <option value="Maine">Maine</option>
+        <option value="Maryland">Maryland</option>
+        <option value="Massachusetts">Massachusetts</option>
+        <option value="Michigan">Michigan</option>
+        <option value="Minnesota">Minnesota</option>
+        <option value="Mississippi">Mississippi</option>
+        <option value="Missouri">Missouri</option>
+        <option value="Montana">Montana</option>
+        <option value="Nebraska">Nebraska</option>
+        <option value="Nevada">Nevada</option>
+        <option value="New Hampshire">New Hampshire</option>
+        <option value="New Jersey">New Jersey</option>
+        <option value="New Mexico">New Mexico</option>
+        <option value="New York">New York</option>
+        <option value="North Carolina">North Carolina</option>
+        <option value="North Dakota">North Dakota</option>
+        <option value="Ohio">Ohio</option>
+        <option value="Oklahoma">Oklahoma</option>
+        <option value="Oregon">Oregon</option>
+        <option value="Pennsylvania">Pennsylvania</option>
+        <option value="Rhode Island">Rhode Island</option>
+        <option value="South Carolina">South Carolina</option>
+        <option value="South Dakota">South Dakota</option>
+        <option value="Tennessee">Tennessee</option>
+        <option value="Texas">Texas</option>
+        <option value="Utah">Utah</option>
+        <option value="Vermont">Vermont</option>
+        <option value="Virginia">Virginia</option>
+        <option value="Washington">Washington</option>
+        <option value="West Virginia">West Virginia</option>
+        <option value="Wisconsin">Wisconsin</option>
+        <option value="Wyoming">Wyoming</option>
+      </select>
+    </div>
+     <div class="jobType title fourthJob">
+      <h3>Job Type:</h3>
+      <select class="jobType jobType4">
+        <option value="Select one" disabled selected>Select your option</option>
+        <option value="Agriculture, Food, and Natural Resources">Agriculture, Food, and Natural Resources</option>
+        <option value="Architecture and Construction">Architecture and Construction</option>
+        <option value="Arts, Audio/Video Technology, and Communication">Arts, Audio/Video Technology, and Communication</option>
+        <option value="Business and Finance">Business and Finance</option>
+        <option value="Education and Training">Education and Training</option>
+        <option value="Government and Public Administration">Government and Public Administration</option>
+        <option value="Health Science">Health Science</option>
+        <option value="Information Technology">Information Technology</option>
+        <option value="Law, Public Safety, Corrections, and Security">Law, Public Safety, Corrections, and Security</option>
+        <option value="Marketing">Marketing</option>
+        <option value="Science, Technology, Engineering, and Math">Science, Technology, Engineering, and Math</option>
+        <option value="Other">Other</option>
+      </select>
+     </div>
+    <div class="timePeriod title fourthJob">
+        <h3>How long did you work there?</h3>
+        <p>From:</p>
+        <input type="text" placeholder="mm/yyyy"  class="timeStart4"/>
+        <p>To:</p>
+        <input type="text" placeholder="mm/yyyy"  class="timeEnd4"/>
+        <p class="leaveBlank">*Enter "to" date or type "current" if still working there</p>
+    </div>
+   <div class="jobDescription title fourthJob">
+        <h3>Job description and responsibilities:</h3>
+        <textarea placeholder="Type here" style="height: 150px;" class="jobDescription4"></textarea>
+     </div>
+</section>
+</section>
+<section>
+  <input type="checkbox" id="toggle4" class="addMore" style="display: none;"/>
+  <p class="addMore title" id="toggleTag4" style="display: none;">*Select this field if you would like to add another job</p>
+
+<section class="fifthJob" style="display: none;">
+   <div class="pastCompanyName title fifthJob">
+       <h3>Company Name:</h3>
+       <input type="text" placeholder="Type here" class="companyName5"/>
+    </div>
+    <div class="jobLocation title fifthJob">
+      <h3>Job Location (city):</h3>
+      <input type="text" placeholder="Type here" class="jobCity5"/>
+     </div>
+     <div id="jobstate" class="jobLocation title firstJob">
+      <h3>Job Location (state):</h3>
+      <select class="jobState5">
+        <option value="Select one" disabled selected>Select your option</option>
+        <option value="Alabama">Alabama</option>
+        <option value="Alaska">Alaska</option>
+        <option value="Arizona">Arizona</option>
+        <option value="Arkansas">Arkansas</option>
+        <option value="California">California</option>
+        <option value="Colorado">Colorado</option>
+        <option value="Connecticut">Connecticut</option>
+        <option value="Delaware">Delaware</option>
+        <option value="District Of Columbia">District Of Columbia</option>
+        <option value="Florida">Florida</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Hawaii">Hawaii</option>
+        <option value="Idaho">Idaho</option>
+        <option value="Illinois">Illinois</option>
+        <option value="Indiana">Indiana</option>
+        <option value="Iowa">Iowa</option>
+        <option value="Kansas">Kansas</option>
+        <option value="Kentucky">Kentucky</option>
+        <option value="Louisiana">Louisiana</option>
+        <option value="Maine">Maine</option>
+        <option value="Maryland">Maryland</option>
+        <option value="Massachusetts">Massachusetts</option>
+        <option value="Michigan">Michigan</option>
+        <option value="Minnesota">Minnesota</option>
+        <option value="Mississippi">Mississippi</option>
+        <option value="Missouri">Missouri</option>
+        <option value="Montana">Montana</option>
+        <option value="Nebraska">Nebraska</option>
+        <option value="Nevada">Nevada</option>
+        <option value="New Hampshire">New Hampshire</option>
+        <option value="New Jersey">New Jersey</option>
+        <option value="New Mexico">New Mexico</option>
+        <option value="New York">New York</option>
+        <option value="North Carolina">North Carolina</option>
+        <option value="North Dakota">North Dakota</option>
+        <option value="Ohio">Ohio</option>
+        <option value="Oklahoma">Oklahoma</option>
+        <option value="Oregon">Oregon</option>
+        <option value="Pennsylvania">Pennsylvania</option>
+        <option value="Rhode Island">Rhode Island</option>
+        <option value="South Carolina">South Carolina</option>
+        <option value="South Dakota">South Dakota</option>
+        <option value="Tennessee">Tennessee</option>
+        <option value="Texas">Texas</option>
+        <option value="Utah">Utah</option>
+        <option value="Vermont">Vermont</option>
+        <option value="Virginia">Virginia</option>
+        <option value="Washington">Washington</option>
+        <option value="West Virginia">West Virginia</option>
+        <option value="Wisconsin">Wisconsin</option>
+        <option value="Wyoming">Wyoming</option>
+      </select>
+    </div>
+     <div class="jobType title fifthJob">
+      <h3>Job Type:</h3>
+      <select class="jobType jobType5">
+        <option value="Select one" disabled selected>Select your option</option>
+        <option value="Agriculture, Food, and Natural Resources">Agriculture, Food, and Natural Resources</option>
+        <option value="Architecture and Construction">Architecture and Construction</option>
+        <option value="Arts, Audio/Video Technology, and Communication">Arts, Audio/Video Technology, and Communication</option>
+        <option value="Business and Finance">Business and Finance</option>
+        <option value="Education and Training">Education and Training</option>
+        <option value="Government and Public Administration">Government and Public Administration</option>
+        <option value="Health Science">Health Science</option>
+        <option value="Information Technology">Information Technology</option>
+        <option value="Law, Public Safety, Corrections, and Security">Law, Public Safety, Corrections, and Security</option>
+        <option value="Marketing">Marketing</option>
+        <option value="Science, Technology, Engineering, and Math">Science, Technology, Engineering, and Math</option>
+        <option value="Other">Other</option>
+      </select>
+     </div>
+    <div class="timePeriod title fifthJob">
+        <h3>How long did you work there?</h3>
+        <p>From:</p>
+        <input type="text" placeholder="mm/yyyy" class="timeStart5"/>
+        <p>To:</p>
+        <input type="text" placeholder="mm/yyyy"  class="timeEnd5"/>
+        <p class="leaveBlank">*Enter "to" date or type "current" if still working there</p>
+    </div>
+   <div class="jobDescription title fifthJob">
+        <h3>Job description and responsibilities:</h3>
+        <textarea placeholder="Type here" style="height: 150px;" class="jobDescription5"></textarea>
+     </div>
+</section>
+</section>
+
+<input type="submit"/>
+</form>
+
+<section id="summaryContainer"></section>
+
+
+</body>
+<footer>
+    <p>&#0153 Recruit Mate & co.</p>
+  <div class="email-sign-up">
+    <p>Enter your email to recieve notifications!</p>
+    <input type="text" placeholder="Your Email" id="email-box" required/>
+    <button id="sign-up">Sign Up</button>
+  </div>
+</footer>
+<script src="../node_modules/axios/dist/axios.min.js"></script>
+<script src="./resume.js"></script>
+</html>

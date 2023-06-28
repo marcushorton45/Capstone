@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruit Mate</title>
+    <link rel="stylesheet" href="recruiter.css">
+</head>
+<header>
+    <a href="./home.html">
+      <h1 id="companyName">Recruit Mate</h1>
+    </a>
+</header>
+<body>
+
+<section class="selectingResume">
+    <h3 class="title">What type of background experience are you looking for?</h3>
+    <select id="experienceSelector" type="text" name="Type here" required class="selectorBox">
+        <option value="Select your option" disabled selected>Select your option</option>
+        <option value="All">All</option>
+        <option value="Agriculture, Food, and Natural Resources">Agriculture, Food, and Natural Resources</option>
+        <option value="Architecture and Construction">Architecture and Construction</option>
+        <option value="Arts, Audio/Video Technology, and Communication">Arts, Audio/Video Technology, and Communication</option>
+        <option value="Business and Finance">Business and Finance</option>
+        <option value="Education and Training">Education and Training</option>
+        <option value="Government and Public Administration">Government and Public Administration</option>
+        <option value="Health Science">Health Science</option>
+        <option value="Information Technology">Information Technology</option>
+        <option value="Law, Public Safety, Corrections, and Security">Law, Public Safety, Corrections, and Security</option>
+        <option value="Marketing">Marketing</option>
+        <option value="Science, Technology, Engineering, and Math">Science, Technology, Engineering, and Math</option>
+        <option value="Other">Other</option>
+    </select>
+    <button id="searchBtn">Search</button>
+
+    <section id="applicationContainer"></section>
+
+</section>
+    
+</body>
+<footer>
+    <p>&#0153 Recruit Mate & co.</p>
+  <div class="email-sign-up">
+    <p>Enter your email to recieve notifications!</p>
+    <input type="text" placeholder="Your Email" id="email-box" required/>
+    <button id="sign-up">Sign Up</button>
+  </div>
+</footer>
+<script src="../node_modules/axios/dist/axios.min.js"></script>
+<script src="recruiter.js"></script>
+</html>

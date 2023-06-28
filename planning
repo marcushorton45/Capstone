@@ -1,0 +1,17 @@
+Recruiter Website:
+
+- The front page contains 2 buttons that give the option of either being a recruiter or a recruitee
+
+- When one of these buttons is selected the page then changes to the page assigned to that button
+   - The recruiter button will give the option to select certain job history/backgrounds from people looking for jobs and when one of the backgrounds is selected, the profiles with that specific history/background will appear for the recruiter to contact them
+   
+   - The recruitee button will give the user the opportunity to upload their resume information as well as skills that may pertain to desired jobs. Once the information is submited, the information will be pushed and shown to the recruitee in a summary of what they have submitted
+
+- The footer of each page contains an option to submit your email to be subscribed to the email list and recieve promotions and/or notifications from employers and employees
+
+
+MVP List:
+
+- Users are able to enter their personal information and then have that information pushed and seen as a summary on the same page
+- Users are able to select and submit a certain job background and have only people with those backgrounds appear
+- Users are able to enter their email at the footer of each page to sign up to recieve email notifications from the website

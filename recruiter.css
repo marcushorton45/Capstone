@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+  }
+  
+#companyName {
+      background-color: #0091FF;
+      margin: 0;
+      padding: 20px;
+      color: white;
+}
+
+a {
+    text-decoration:none;
+    font-family:Arial;
+    display: block;
+    color: white;
+}
+
+footer {
+    background-color: #0091FF;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+    height: 55px;
+    margin: 0px;
+    padding: 0 30px;
+  }
+  
+  .email-sign-up {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .email-sign-up > p {
+    font-size: 15px;
+  }
+  
+  #email-box {
+    border: none;
+    padding: 3px;
+    border-radius: 2px;
+  }
+  
+  #sign-up {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 3px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    cursor: pointer;
+  }
+  
+  #sign-up:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+  }
+
+
+
+
+  .selectingResume {
+    min-height: 70vh;
+    margin: 20px;
+  }
+
+  .title {
+    padding: 20px;
+    padding-bottom: 10px
+  }
+
+  .selectorBox {
+    margin: 20px;
+    margin-top: 0px;
+    width: auto;
+  }
+
+  .selectorBox:hover {
+    cursor: pointer;
+  }
+
+  #searchBtn {
+    background-color: #0091FF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 3px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+
+  #searchBtn:hover {
+    cursor: pointer;
+    transform: scale(1.02, 1.02);
+  }
+
+  ::placeholder {
+    font-style: italic;
+    font-size: 1em;
+    padding: 5px;
+    display: flex;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+
+
+
+
+  #applicationContainer {
+    border:  5px solid black;
+    min-height: 55vh;
+    margin: 20px;
+    scroll-behavior: inherit;
+    overflow-y: auto;
+    height: 100px;
+  }
+
+.allInfo {
+    border: 3px solid #999;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #BBDAFA;
+    background-color: white;
+}
+
+.personalInfoContainer {
+    display: flex;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 3px inset #999;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.jobHistoryContainer {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#fullName {
+    font-size: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.personalInfoTitles {
+    color: gray;
+    text-decoration: underline;
+}
+
+.jobInfoTitles {
+    color: gray;
+    text-decoration: underline;
+}
+
+#jobDescription {
+    border: 0px solid black;
+    width: 400px;
+    margin: 15px;
+}
+
+.allText {
+    padding: 25px;
+    display: flex;
+}

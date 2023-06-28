@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "fullName": "John Smith",
+      "location": "Lehi, Utah",
+      "bday": "02/14/1992",
+      "phoneNumber": 8087865643,
+      "email": "johnsmith456@gmail.com",
+
+      "companyName": "Les Olsen IT",
+      "jobLocation": "Lehi, Utah",
+      "jobType": "Information Technology",
+      "jobTimePeriod": "12/2000 - 05/2015",
+      "jobDescription": "I was in charge of managing, maintaining, and repairing IT systems."
+    },
+    {
+      "id": 2,
+      "fullName": "Shawn Miller",
+      "location": "Star Valley, Wyoming",
+      "bday": "09/02/1988",
+      "phoneNumber": 4362399087,
+      "email": "smill89@gmail.com",
+
+      "companyName": "Goldman Sachs",
+      "jobLocation": "Star Valley, Wyoming",
+      "jobType": "Business and Finance",
+      "jobTimePeriod": "02/2003 - 06/2012",
+      "jobDescription": "I was an accountant and took charge over auditing finacial documents and procedures, reconciling bank statements and calculating tax payments and returns."
+    },
+    {
+      "id": 3,
+      "fullName": "Sarah Johnson",
+      "location": "Seattle, Washington",
+      "bday": "12/16/1982",
+      "phoneNumber": 2034794835,
+      "email": "sarahsarah1@yahoo.com",
+
+      "companyName": "Mercer Island School District",
+      "jobLocation": "Seattle, Washington",
+      "jobType": "Education and Training",
+      "jobTimePeriod": "07/2006 - 01/2013",
+      "jobDescription": "I was an elementary school principal. I was in charge of coordinating administrative oversight and planing all phases of instructional leadership for the school."
+    },
+    {
+        "id": 4,
+        "fullName": "Sam Robles",
+        "location": "Provo, Utah",
+        "bday": "10/19/1990",
+        "phoneNumber": 8014583782,
+        "email": "samrobles12@gmail.com",
+  
+        "companyName": "University Place",
+        "jobLocation": "Orem, Utah",
+        "jobType": "Law, Public Safety, Corrections, and Security",
+        "jobTimePeriod": "08/2018 - Current job",
+        "jobDescription": "I was head security guard at the University mall and we ensured the safety of everyone there."
+      },
+      {
+        "id": 5,
+        "fullName": "Gary Schmidt",
+        "location": "Kona, Hawaii",
+        "bday": "12/04/1981",
+        "phoneNumber": 8084093289,
+        "email": "schmidty45@gmail.com",
+  
+        "companyName": "First Hawaiian Bank",
+        "jobLocation": "Kona, Hawaii",
+        "jobType": "Business and Finance",
+        "jobTimePeriod": "02/14/2001 - 04/18/2012",
+        "jobDescription": "Serving customers by completing account transactions. Providing account services to customers by receiving deposits and loan payments, cashing checks, issuing savings withdrawals, and recording night and mail deposits. Selling cashier's checks, traveler's checks, and series e bonds."
+      }
+  ]

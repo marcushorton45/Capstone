@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruit Mate</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<header>
+  <a href="./home.html">
+   <h1 id="companyName">Recruit Mate</h1>
+  </a>
+</header>
+<body>
+ <section id="mainPage">
+  <div id="mainPageBtns">
+   <div class="recruiterSection">
+     <h2>I'm here to recruit!</h2>
+     <a href="./recruiter.html">
+    <button class="recruiterBtn">Start the search</button>
+    </a>
+   </div>
+   <div class="recruiteeSection">
+    <h2>I'm here to get recruited!</h2>
+    <a href="./resume.html">
+    <button class="recruiteeBtn">Upload Resume</button>
+    </a>
+   </div>
+  </div>
+ </section> 
+</body>
+<footer>
+    <p>&#0153 Recruit Mate & co.</p>
+  <div class="email-sign-up">
+    <p>Enter your email to recieve notifications!</p>
+    <input type="text" placeholder="Your Email" id="email-box" required/>
+    <button id="sign-up">Sign Up</button>
+  </div>
+</footer>
+<script src="../node_modules/axios/dist/axios.min.js"></script>
+<script src="./home.js"></script>
+</html>

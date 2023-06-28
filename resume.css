@@ -1,0 +1,380 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+#companyName {
+    background-color: #0091FF;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
+a {
+  text-decoration:none;
+  font-family:Arial;
+  display: block;
+  color: white;
+}
+
+footer {
+    background-color: #0091FF;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+    height: 55px;
+    margin: 0px;
+    padding: 0 30px;
+  }
+  
+  .email-sign-up {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .email-sign-up > p {
+    font-size: 15px;
+  }
+  
+  #email-box {
+    border: none;
+    padding: 3px;
+    border-radius: 2px;
+  }
+  
+  #sign-up {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 3px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    cursor: pointer;
+  }
+  
+  #sign-up:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+  }
+
+
+
+
+
+
+  .sectionTitle {
+    text-decoration: underline;
+    font-size: 25px;
+    padding-left: 35px;
+    
+  }
+
+  #resumeMain {
+    min-height: 80.9vh;
+    margin: 20px;
+  }
+
+
+
+
+  #personalInfo {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 5px solid black;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+  .name {
+    display: flex;
+    padding-left: 50px;
+  }
+
+  #fname {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
+
+  #lname {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
+
+  #city {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+
+  #state {
+    display: flex;
+    flex-direction: column;
+    width: 155px;
+  }
+
+  .other {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #bday {
+    display: flex;
+    flex-direction: column;
+    width: 155px;
+  }
+
+  #phoneNumber {
+    display: flex;
+    flex-direction: column;
+    width: 155px;
+  }
+
+  #email {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
+  
+
+
+
+  .firstJob {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-wrap: wrap;
+  }
+
+  .secondJob {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-wrap: wrap;
+  }
+
+  .thirdJob {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-wrap: wrap;
+  }
+
+  .fourthJob {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-wrap: wrap;
+  }
+
+  .fifthJob {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-wrap: wrap;
+  }
+
+
+
+  ::placeholder {
+    font-style: italic;
+    font-size: 1em;
+    padding: 5px;
+    display: flex;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+
+  .pastCompanyName {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
+
+  .jobType {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
+
+  .jobLocation {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
+
+  .timePeriod {
+    display: flex;
+    flex-direction: column;
+    width: 155px;
+  }
+
+  .leaveBlank {
+    font-style: italic;
+    color: gray;
+  }
+
+  .jobDescription {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+
+  textarea {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+
+
+  
+  .addMore {
+    font-style: italic;
+    color: gray;
+    display: flex;
+  }
+
+  
+
+  #resumeMain {
+    min-height: 80.9vh;
+    margin: 20px;
+  }
+
+  .summaryTitle {
+    text-decoration: underline;
+    font-size: 25px;
+    padding-left: 35px;
+    padding-top: 35px;
+    width: 300px;
+  }
+
+  #summaryPersonalInfo {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 5px solid black;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: 20;
+  }
+
+  #summaryJobInfo1 {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 3px inset #999;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: 20;
+  }
+  #summaryJobInfo2 {
+    display: none;
+    justify-content: flex-start;
+    border-bottom: 3px inset #999;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: 20;
+  }
+
+  #summaryJobInfo3 {
+    display: none;
+    justify-content: flex-start;
+    border-bottom: 3px inset #999;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: 20;
+  }
+
+  #summaryJobInfo4 {
+    display: none;
+    justify-content: flex-start;
+    border-bottom: 3px inset #999;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: 20;
+  }
+
+  #summaryJobInfo5 {
+    display: none;
+    justify-content: flex-start;
+    border-bottom: 5px solid black;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: 20;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+  .name {
+    display: flex;
+    padding-left: 50px;
+  }
+
+  #fullName {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
+
+  #fullLocation {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+
+  #jobFullLocation {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
+
+  .fullTimePeriod {
+    display: flex;
+    flex-direction: column;
+    width: 155px;
+  }
+
+  .jobDescriptionSummary {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
